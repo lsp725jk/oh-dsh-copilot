@@ -1,0 +1,139 @@
+[
+  {
+    "name": "home",
+    "clicks": [],
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "settings-general",
+    "clicks": [
+      "设置"
+    ],
+    "wait": 1500
+  },
+  {
+    "name": "settings-sections",
+    "clicks": [
+      "账户"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-sessions",
+    "clicks": [
+      "会话"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-themes",
+    "clicks": [
+      "主题"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-accessibility",
+    "clicks": [
+      "辅助功能"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-voice",
+    "clicks": [
+      "语音听写"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-computeruse",
+    "clicks": [
+      "计算机操作"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-customize",
+    "clicks": [
+      "定制"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-models",
+    "clicks": [
+      "模型提供方"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-experimental",
+    "clicks": [
+      "实验性"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-projects",
+    "clicks": [
+      "项目"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "settings-close",
+    "clicks": [],
+    "esc": true,
+    "wait": 800
+  },
+  {
+    "name": "customize-installed",
+    "clicks": [
+      "定制"
+    ],
+    "wait": 2000,
+    "dumpClickable": true
+  },
+  {
+    "name": "customize-installed-tab",
+    "clicks": [
+      "已安装"
+    ],
+    "wait": 1500,
+    "dumpClickable": true
+  },
+  {
+    "name": "automations",
+    "clicks": [
+      "自动化"
+    ],
+    "wait": 2000,
+    "dumpClickable": true
+  },
+  {
+    "name": "issues",
+    "clicks": [
+      "Issue"
+    ],
+    "wait": 2000,
+    "dumpClickable": true
+  },
+  {
+    "name": "pullrequests",
+    "clicks": [
+      "Pull Request"
+    ],
+    "wait": 2000,
+    "dumpClickable": true
+  },
+  {
+    "name": "command-palette",
+    "clicks": [
+      "搜索"
+    ],
+    "wait": 1500,
+    "dumpClickable": true
+  }
+]

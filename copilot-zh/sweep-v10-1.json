@@ -1,0 +1,1295 @@
+{
+  "steps": [
+    {
+      "name": "home",
+      "url": "/workflows",
+      "clicks": [],
+      "textCount": 3,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "@lsp725jk，对话消息已用：0%",
+        "dsh-delegationskills/dsh新建自动化",
+        "lsp725jk，打开用户菜单",
+        "主题",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "仓库审计手动审计未关闭的 PR，找出阻塞项与高风险改动。",
+        "关于",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "定制",
+        "展开/收起 - 的会话",
+        "帮助中心（在新标签页打开）。",
+        "开始自动化",
+        "性能改进每周找出 10 项性能改进点，并为收益最高、成本最低的那项提交 PR。",
+        "成本建议每周获取个性化建议，降低 token 消耗与成本。",
+        "拉取请求",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新功能（在新标签页打开）。",
+        "新建",
+        "新建自动化",
+        "新建项目或会话",
+        "无障碍审计每天审查昨天合并的 PR，并汇总其中的无障碍问题。",
+        "更新日志草稿每周把本周合并的重点 PR 汇总成一份发布说明草稿。",
+        "管理会话",
+        "管理账户",
+        "自动化",
+        "议题",
+        "议题分诊每天查看最新 GitHub Issue，给出优先级与负责人建议。",
+        "设置，Ctrl + ,",
+        "运行状况检查",
+        "退出登录",
+        "遥测审查手动审查 PR 中面向用户的改动，并建议所需的遥测事件与属性。",
+        "配置会话",
+        "键盘快捷键：Question mark"
+      ]
+    },
+    {
+      "name": "settings-general",
+      "url": "/workflows",
+      "clicks": [
+        "设置→OK"
+      ],
+      "textCount": 8,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-sections",
+      "url": "/workflows",
+      "clicks": [
+        "账户→OK"
+      ],
+      "textCount": 5,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-sessions",
+      "url": "/workflows",
+      "clicks": [
+        "会话→OK"
+      ],
+      "textCount": 9,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-themes",
+      "url": "/workflows",
+      "clicks": [
+        "主题→OK"
+      ],
+      "textCount": 69,
+      "attrCount": 56
+    },
+    {
+      "name": "settings-accessibility",
+      "url": "/workflows",
+      "clicks": [
+        "辅助功能→OK"
+      ],
+      "textCount": 27,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-voice",
+      "url": "/workflows",
+      "clicks": [
+        "语音听写→OK"
+      ],
+      "textCount": 6,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-computeruse",
+      "url": "/workflows",
+      "clicks": [
+        "计算机操作→OK"
+      ],
+      "textCount": 4,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-customize",
+      "url": "/extensions",
+      "clicks": [
+        "定制→OK"
+      ],
+      "textCount": 12,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-models",
+      "url": "/extensions",
+      "clicks": [
+        "模型提供方→OK"
+      ],
+      "textCount": 13,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-experimental",
+      "url": "/extensions",
+      "clicks": [
+        "实验性→OK"
+      ],
+      "textCount": 16,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-projects",
+      "url": "/extensions",
+      "clicks": [
+        "项目→NOT_FOUND:项目"
+      ],
+      "textCount": 16,
+      "attrCount": 0
+    },
+    {
+      "name": "settings-close",
+      "url": "/extensions",
+      "clicks": [],
+      "textCount": 12,
+      "attrCount": 0
+    },
+    {
+      "name": "customize-installed",
+      "url": "/extensions",
+      "clicks": [
+        "定制→OK"
+      ],
+      "textCount": 12,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "af 的操作",
+        "af，查看详情",
+        "agent-merge 的操作",
+        "agent-merge，查看详情",
+        "agentfinder 的操作",
+        "agentfinder，查看详情",
+        "create-canvas 的操作",
+        "create-canvas，查看详情",
+        "dsh 的操作",
+        "dsh-delegation 的操作",
+        "dsh-delegation，查看详情",
+        "dsh，查看详情",
+        "latex 的操作",
+        "latex，查看详情",
+        "lsp725jk，打开用户菜单",
+        "orchestrate 的操作",
+        "orchestrate，查看详情",
+        "pr-stack 的操作",
+        "pr-stack，查看详情",
+        "了解更多（在新标签页打开）。",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "在新会话中打开：浏览器",
+        "在新会话中打开：终端",
+        "在新会话中打开：编辑器",
+        "定制",
+        "展开/收起 - 的会话",
+        "已安装已安装",
+        "已连接",
+        "拉取请求",
+        "按类型筛选：全部类型",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新建",
+        "新建项目或会话",
+        "浏览扩展",
+        "浏览技能",
+        "浏览浏览",
+        "浏览画布",
+        "添加扩展",
+        "添加插件",
+        "添加服务器",
+        "禁用 af",
+        "禁用 agent-merge",
+        "禁用 agentfinder",
+        "禁用 create-canvas",
+        "禁用 dsh",
+        "禁用 dsh-delegation",
+        "禁用 latex",
+        "禁用 orchestrate",
+        "禁用 pr-stack",
+        "自动化",
+        "议题",
+        "设置，Ctrl + ,",
+        "配置会话"
+      ]
+    },
+    {
+      "name": "customize-installed-tab",
+      "url": "/extensions",
+      "clicks": [
+        "已安装→OK"
+      ],
+      "textCount": 12,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "af 的操作",
+        "af，查看详情",
+        "agent-merge 的操作",
+        "agent-merge，查看详情",
+        "agentfinder 的操作",
+        "agentfinder，查看详情",
+        "create-canvas 的操作",
+        "create-canvas，查看详情",
+        "dsh 的操作",
+        "dsh-delegation 的操作",
+        "dsh-delegation，查看详情",
+        "dsh，查看详情",
+        "latex 的操作",
+        "latex，查看详情",
+        "lsp725jk，打开用户菜单",
+        "orchestrate 的操作",
+        "orchestrate，查看详情",
+        "pr-stack 的操作",
+        "pr-stack，查看详情",
+        "了解更多（在新标签页打开）。",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "在新会话中打开：浏览器",
+        "在新会话中打开：终端",
+        "在新会话中打开：编辑器",
+        "定制",
+        "展开/收起 - 的会话",
+        "已安装已安装",
+        "已连接",
+        "拉取请求",
+        "按类型筛选：全部类型",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新建",
+        "新建项目或会话",
+        "浏览扩展",
+        "浏览技能",
+        "浏览浏览",
+        "浏览画布",
+        "添加扩展",
+        "添加插件",
+        "添加服务器",
+        "禁用 af",
+        "禁用 agent-merge",
+        "禁用 agentfinder",
+        "禁用 create-canvas",
+        "禁用 dsh",
+        "禁用 dsh-delegation",
+        "禁用 latex",
+        "禁用 orchestrate",
+        "禁用 pr-stack",
+        "自动化",
+        "议题",
+        "设置，Ctrl + ,",
+        "配置会话"
+      ]
+    },
+    {
+      "name": "automations",
+      "url": "/workflows",
+      "clicks": [
+        "自动化→OK"
+      ],
+      "textCount": 3,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "dsh-delegationskills/dsh新建自动化",
+        "lsp725jk，打开用户菜单",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "仓库审计手动审计未关闭的 PR，找出阻塞项与高风险改动。",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "定制",
+        "展开/收起 - 的会话",
+        "开始自动化",
+        "性能改进每周找出 10 项性能改进点，并为收益最高、成本最低的那项提交 PR。",
+        "成本建议每周获取个性化建议，降低 token 消耗与成本。",
+        "拉取请求",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新建",
+        "新建自动化",
+        "新建项目或会话",
+        "无障碍审计每天审查昨天合并的 PR，并汇总其中的无障碍问题。",
+        "更新日志草稿每周把本周合并的重点 PR 汇总成一份发布说明草稿。",
+        "自动化",
+        "议题",
+        "议题分诊每天查看最新 GitHub Issue，给出优先级与负责人建议。",
+        "设置，Ctrl + ,",
+        "遥测审查手动审查 PR 中面向用户的改动，并建议所需的遥测事件与属性。",
+        "配置会话"
+      ]
+    },
+    {
+      "name": "issues",
+      "url": "/workflows",
+      "clicks": [
+        "Issue→NOT_FOUND:Issue"
+      ],
+      "textCount": 3,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "dsh-delegationskills/dsh新建自动化",
+        "lsp725jk，打开用户菜单",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "仓库审计手动审计未关闭的 PR，找出阻塞项与高风险改动。",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "定制",
+        "展开/收起 - 的会话",
+        "开始自动化",
+        "性能改进每周找出 10 项性能改进点，并为收益最高、成本最低的那项提交 PR。",
+        "成本建议每周获取个性化建议，降低 token 消耗与成本。",
+        "拉取请求",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新建",
+        "新建自动化",
+        "新建项目或会话",
+        "无障碍审计每天审查昨天合并的 PR，并汇总其中的无障碍问题。",
+        "更新日志草稿每周把本周合并的重点 PR 汇总成一份发布说明草稿。",
+        "自动化",
+        "议题",
+        "议题分诊每天查看最新 GitHub Issue，给出优先级与负责人建议。",
+        "设置，Ctrl + ,",
+        "遥测审查手动审查 PR 中面向用户的改动，并建议所需的遥测事件与属性。",
+        "配置会话"
+      ]
+    },
+    {
+      "name": "pullrequests",
+      "url": "/workflows",
+      "clicks": [
+        "Pull Request→NOT_FOUND:Pull Request"
+      ],
+      "textCount": 3,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "dsh-delegationskills/dsh新建自动化",
+        "lsp725jk，打开用户菜单",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "仓库审计手动审计未关闭的 PR，找出阻塞项与高风险改动。",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "定制",
+        "展开/收起 - 的会话",
+        "开始自动化",
+        "性能改进每周找出 10 项性能改进点，并为收益最高、成本最低的那项提交 PR。",
+        "成本建议每周获取个性化建议，降低 token 消耗与成本。",
+        "拉取请求",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新建",
+        "新建自动化",
+        "新建项目或会话",
+        "无障碍审计每天审查昨天合并的 PR，并汇总其中的无障碍问题。",
+        "更新日志草稿每周把本周合并的重点 PR 汇总成一份发布说明草稿。",
+        "自动化",
+        "议题",
+        "议题分诊每天查看最新 GitHub Issue，给出优先级与负责人建议。",
+        "设置，Ctrl + ,",
+        "遥测审查手动审查 PR 中面向用户的改动，并建议所需的遥测事件与属性。",
+        "配置会话"
+      ]
+    },
+    {
+      "name": "command-palette",
+      "url": "/workflows",
+      "clicks": [
+        "搜索→OK"
+      ],
+      "textCount": 7,
+      "attrCount": 0,
+      "clickable": [
+        "-",
+        "dsh-delegationskills/dsh新建自动化",
+        "lsp725jk，打开用户菜单",
+        "从 - 的 Pull Request、分支或 Issue 创建项目",
+        "仓库审计手动审计未关闭的 PR，找出阻塞项与高风险改动。",
+        "切换主题模式",
+        "前往「拉取请求」",
+        "前往「自动化」",
+        "前往「议题」",
+        "前往「首页」",
+        "前进，Ctrl + ]",
+        "反馈意见",
+        "后退，Ctrl + [",
+        "在 - 中新建会话",
+        "复制虚拟化跟踪",
+        "定制",
+        "展开/收起 - 的会话",
+        "开始自动化",
+        "忽略",
+        "性能改进每周找出 10 项性能改进点，并为收益最高、成本最低的那项提交 PR。",
+        "恢复远程会话",
+        "成本建议每周获取个性化建议，降低 token 消耗与成本。",
+        "打开设置Ctrl + CommaCtrl,",
+        "拉取请求",
+        "按 ID 恢复会话",
+        "搜索，Ctrl + K",
+        "收起/展开侧边栏，Ctrl + B",
+        "新建",
+        "新建会话Ctrl + NCtrlN",
+        "新建自动化",
+        "新建议题",
+        "新建项目或会话",
+        "无障碍审计每天审查昨天合并的 PR，并汇总其中的无障碍问题。",
+        "更新日志草稿每周把本周合并的重点 PR 汇总成一份发布说明草稿。",
+        "检查更新",
+        "添加项目",
+        "管理会话",
+        "自动化",
+        "议题",
+        "议题分诊每天查看最新 GitHub Issue，给出优先级与负责人建议。",
+        "设置，Ctrl + ,",
+        "遥测审查手动审查 PR 中面向用户的改动，并建议所需的遥测事件与属性。",
+        "配置会话",
+        "重置缩放"
+      ]
+    }
+  ],
+  "texts": [
+    "\"Hi, \"",
+    "%username%",
+    "// welcome",
+    "/permissions",
+    "@lsp725jk",
+    "A",
+    "A cup of coffee",
+    "ABOLKOG",
+    "Alt",
+    "Aurora",
+    "Ayu",
+    "B",
+    "Base16 Flat",
+    "Base16 Mocha",
+    "Blue Dolphin",
+    "C",
+    "C:\\Users\\y",
+    "Calm Days, Sober Nights Sky",
+    "Catppuccin Frappé",
+    "Catppuccin Macchiato",
+    "Catppuccin Mocha",
+    "Chai",
+    "Chinolor",
+    "Co-authored-by",
+    "Ctrl",
+    "Ctrl + Comma",
+    "Ctrl + K",
+    "Ctrl + N",
+    "Ctrl+K",
+    "Cyberdyne",
+    "D",
+    "Desert",
+    "Django Reborn Again",
+    "E",
+    "Espresso",
+    "EyeHealth",
+    "F",
+    "F3",
+    "F6",
+    "Flexoki",
+    "Fox",
+    "G",
+    "Garbage Oracle",
+    "GitHub",
+    "GitHub Copilot",
+    "Gruvbox Material",
+    "Homebrew",
+    "HydraFusion",
+    "IC Orange PPL",
+    "IKKI",
+    "K",
+    "Kanso Ink",
+    "Kary Pro Colors",
+    "L",
+    "M",
+    "Mondrian",
+    "Monochrome",
+    "Monochrome Stone",
+    "Monokai Pro Spectrum",
+    "N",
+    "Noctis Azureus",
+    "Noctis Hibernus",
+    "Noir Essence",
+    "Nord Midnight",
+    "Notionish",
+    "P",
+    "Phonebook",
+    "Polychrome",
+    "Purplepeter",
+    "R",
+    "Rainglow Codecourse",
+    "Rainglow Crisp",
+    "Rainglow Lavender",
+    "Remedy Tilted",
+    "Rosé Pine",
+    "S",
+    "Selene Selenized",
+    "Shades of Purple",
+    "Shift",
+    "Shift + Tab",
+    "Soft Color",
+    "T",
+    "Tearout",
+    "Tokyo Night",
+    "Tomorrow Night Eighties",
+    "U",
+    "Vaporizer Turquoise",
+    "W",
+    "Xotopio",
+    "Yuttari",
+    "Zenbones Rosebones",
+    "Zhxo'red",
+    "`Hello, ${name}!`",
+    "action",
+    "af",
+    "agent-merge",
+    "agentfinder",
+    "const",
+    "create-canvas",
+    "dsh",
+    "dsh-delegation",
+    "extensions",
+    "function",
+    "github.com",
+    "greet",
+    "latex",
+    "lsp725jk",
+    "lsp725jk-my-feature",
+    "msg",
+    "name",
+    "nemotron-speech-streaming-en-0.6b-generic-cpu",
+    "orchestrate",
+    "plugins",
+    "pr-stack",
+    "return",
+    "skills/dsh",
+    "v1.1.28",
+    "~\\copilot-worktrees\\example-repo\\my-branch"
+  ],
+  "textStates": {
+    "dsh-delegation": [
+      "home",
+      "settings-general",
+      "settings-sections",
+      "settings-sessions",
+      "settings-themes",
+      "settings-accessibility",
+      "settings-voice",
+      "settings-computeruse",
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab",
+      "automations",
+      "issues",
+      "pullrequests",
+      "command-palette"
+    ],
+    "lsp725jk": [
+      "home",
+      "settings-general",
+      "settings-sections",
+      "settings-sessions",
+      "settings-themes",
+      "settings-accessibility",
+      "settings-voice",
+      "settings-computeruse",
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab",
+      "automations",
+      "issues",
+      "pullrequests",
+      "command-palette"
+    ],
+    "skills/dsh": [
+      "home",
+      "settings-general",
+      "settings-sections",
+      "settings-sessions",
+      "settings-themes",
+      "settings-accessibility",
+      "settings-voice",
+      "settings-computeruse",
+      "automations",
+      "issues",
+      "pullrequests",
+      "command-palette"
+    ],
+    "@lsp725jk": [
+      "settings-general",
+      "settings-sections",
+      "settings-sessions",
+      "settings-themes",
+      "settings-accessibility",
+      "settings-voice",
+      "settings-computeruse",
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects"
+    ],
+    "C:\\Users\\y": [
+      "settings-general"
+    ],
+    "GitHub": [
+      "settings-general",
+      "settings-themes"
+    ],
+    "L": [
+      "settings-general"
+    ],
+    "v1.1.28": [
+      "settings-general"
+    ],
+    "github.com": [
+      "settings-sections"
+    ],
+    "%username%": [
+      "settings-sessions"
+    ],
+    "/permissions": [
+      "settings-sessions"
+    ],
+    "Co-authored-by": [
+      "settings-sessions"
+    ],
+    "lsp725jk-my-feature": [
+      "settings-sessions"
+    ],
+    "~\\copilot-worktrees\\example-repo\\my-branch": [
+      "settings-sessions"
+    ],
+    "\"Hi, \"": [
+      "settings-themes"
+    ],
+    "// welcome": [
+      "settings-themes"
+    ],
+    "A cup of coffee": [
+      "settings-themes"
+    ],
+    "ABOLKOG": [
+      "settings-themes"
+    ],
+    "Aurora": [
+      "settings-themes"
+    ],
+    "Ayu": [
+      "settings-themes"
+    ],
+    "Base16 Flat": [
+      "settings-themes"
+    ],
+    "Base16 Mocha": [
+      "settings-themes"
+    ],
+    "Blue Dolphin": [
+      "settings-themes"
+    ],
+    "Calm Days, Sober Nights Sky": [
+      "settings-themes"
+    ],
+    "Catppuccin Frappé": [
+      "settings-themes"
+    ],
+    "Catppuccin Macchiato": [
+      "settings-themes"
+    ],
+    "Catppuccin Mocha": [
+      "settings-themes"
+    ],
+    "Chai": [
+      "settings-themes"
+    ],
+    "Chinolor": [
+      "settings-themes"
+    ],
+    "Cyberdyne": [
+      "settings-themes"
+    ],
+    "Desert": [
+      "settings-themes"
+    ],
+    "Django Reborn Again": [
+      "settings-themes"
+    ],
+    "Espresso": [
+      "settings-themes"
+    ],
+    "EyeHealth": [
+      "settings-themes"
+    ],
+    "Flexoki": [
+      "settings-themes"
+    ],
+    "Fox": [
+      "settings-themes"
+    ],
+    "Garbage Oracle": [
+      "settings-themes"
+    ],
+    "Gruvbox Material": [
+      "settings-themes"
+    ],
+    "Homebrew": [
+      "settings-themes"
+    ],
+    "IC Orange PPL": [
+      "settings-themes"
+    ],
+    "IKKI": [
+      "settings-themes"
+    ],
+    "Kanso Ink": [
+      "settings-themes"
+    ],
+    "Kary Pro Colors": [
+      "settings-themes"
+    ],
+    "Mondrian": [
+      "settings-themes"
+    ],
+    "Monochrome": [
+      "settings-themes"
+    ],
+    "Monochrome Stone": [
+      "settings-themes"
+    ],
+    "Monokai Pro Spectrum": [
+      "settings-themes"
+    ],
+    "Noctis Azureus": [
+      "settings-themes"
+    ],
+    "Noctis Hibernus": [
+      "settings-themes"
+    ],
+    "Noir Essence": [
+      "settings-themes"
+    ],
+    "Nord Midnight": [
+      "settings-themes"
+    ],
+    "Notionish": [
+      "settings-themes"
+    ],
+    "Phonebook": [
+      "settings-themes"
+    ],
+    "Polychrome": [
+      "settings-themes"
+    ],
+    "Purplepeter": [
+      "settings-themes"
+    ],
+    "Rainglow Codecourse": [
+      "settings-themes"
+    ],
+    "Rainglow Crisp": [
+      "settings-themes"
+    ],
+    "Rainglow Lavender": [
+      "settings-themes"
+    ],
+    "Remedy Tilted": [
+      "settings-themes"
+    ],
+    "Rosé Pine": [
+      "settings-themes"
+    ],
+    "Selene Selenized": [
+      "settings-themes"
+    ],
+    "Shades of Purple": [
+      "settings-themes"
+    ],
+    "Soft Color": [
+      "settings-themes"
+    ],
+    "Tearout": [
+      "settings-themes"
+    ],
+    "Tokyo Night": [
+      "settings-themes"
+    ],
+    "Tomorrow Night Eighties": [
+      "settings-themes"
+    ],
+    "Vaporizer Turquoise": [
+      "settings-themes"
+    ],
+    "Xotopio": [
+      "settings-themes"
+    ],
+    "Yuttari": [
+      "settings-themes"
+    ],
+    "Zenbones Rosebones": [
+      "settings-themes"
+    ],
+    "Zhxo'red": [
+      "settings-themes"
+    ],
+    "`Hello, ${name}!`": [
+      "settings-themes"
+    ],
+    "const": [
+      "settings-themes"
+    ],
+    "function": [
+      "settings-themes"
+    ],
+    "greet": [
+      "settings-themes"
+    ],
+    "msg": [
+      "settings-themes"
+    ],
+    "name": [
+      "settings-themes"
+    ],
+    "return": [
+      "settings-themes"
+    ],
+    "A": [
+      "settings-accessibility"
+    ],
+    "Alt": [
+      "settings-accessibility"
+    ],
+    "B": [
+      "settings-accessibility"
+    ],
+    "C": [
+      "settings-accessibility"
+    ],
+    "Ctrl": [
+      "settings-accessibility",
+      "settings-voice",
+      "command-palette"
+    ],
+    "D": [
+      "settings-accessibility"
+    ],
+    "E": [
+      "settings-accessibility"
+    ],
+    "F": [
+      "settings-accessibility"
+    ],
+    "F3": [
+      "settings-accessibility"
+    ],
+    "F6": [
+      "settings-accessibility"
+    ],
+    "G": [
+      "settings-accessibility"
+    ],
+    "K": [
+      "settings-accessibility"
+    ],
+    "M": [
+      "settings-accessibility"
+    ],
+    "N": [
+      "settings-accessibility",
+      "command-palette"
+    ],
+    "P": [
+      "settings-accessibility"
+    ],
+    "R": [
+      "settings-accessibility"
+    ],
+    "S": [
+      "settings-accessibility"
+    ],
+    "Shift": [
+      "settings-accessibility"
+    ],
+    "Shift + Tab": [
+      "settings-accessibility"
+    ],
+    "T": [
+      "settings-accessibility"
+    ],
+    "U": [
+      "settings-accessibility"
+    ],
+    "W": [
+      "settings-accessibility"
+    ],
+    "action": [
+      "settings-accessibility"
+    ],
+    "nemotron-speech-streaming-en-0.6b-generic-cpu": [
+      "settings-voice"
+    ],
+    "af": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "agent-merge": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "agentfinder": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "create-canvas": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "dsh": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "extensions": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "latex": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "orchestrate": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "pr-stack": [
+      "settings-customize",
+      "settings-models",
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "GitHub Copilot": [
+      "settings-models"
+    ],
+    "Ctrl + K": [
+      "settings-experimental",
+      "settings-projects"
+    ],
+    "Ctrl+K": [
+      "settings-experimental",
+      "settings-projects"
+    ],
+    "HydraFusion": [
+      "settings-experimental",
+      "settings-projects"
+    ],
+    "plugins": [
+      "settings-experimental",
+      "settings-projects",
+      "settings-close",
+      "customize-installed",
+      "customize-installed-tab"
+    ],
+    "Ctrl + Comma": [
+      "command-palette"
+    ],
+    "Ctrl + N": [
+      "command-palette"
+    ]
+  },
+  "attrs": [
+    "A cup of coffee",
+    "ABOLKOG",
+    "Aurora",
+    "Ayu",
+    "Base16 Flat",
+    "Base16 Mocha",
+    "Blue Dolphin",
+    "Calm Days, Sober Nights Sky",
+    "Catppuccin Frappé",
+    "Catppuccin Macchiato",
+    "Catppuccin Mocha",
+    "Chai",
+    "Chinolor",
+    "Cyberdyne",
+    "Desert",
+    "Django Reborn Again",
+    "Espresso",
+    "EyeHealth",
+    "Flexoki",
+    "Fox",
+    "Garbage Oracle",
+    "GitHub",
+    "Gruvbox Material",
+    "Homebrew",
+    "IC Orange PPL",
+    "IKKI",
+    "Kanso Ink",
+    "Kary Pro Colors",
+    "Mondrian",
+    "Monochrome",
+    "Monochrome Stone",
+    "Monokai Pro Spectrum",
+    "Noctis Azureus",
+    "Noctis Hibernus",
+    "Noir Essence",
+    "Nord Midnight",
+    "Notionish",
+    "Phonebook",
+    "Polychrome",
+    "Purplepeter",
+    "Rainglow Codecourse",
+    "Rainglow Crisp",
+    "Rainglow Lavender",
+    "Remedy Tilted",
+    "Rosé Pine",
+    "Selene Selenized",
+    "Shades of Purple",
+    "Soft Color",
+    "Tearout",
+    "Tokyo Night",
+    "Tomorrow Night Eighties",
+    "Vaporizer Turquoise",
+    "Xotopio",
+    "Yuttari",
+    "Zenbones Rosebones",
+    "Zhxo'red"
+  ],
+  "attrStates": {
+    "A cup of coffee": [
+      "settings-themes"
+    ],
+    "ABOLKOG": [
+      "settings-themes"
+    ],
+    "Aurora": [
+      "settings-themes"
+    ],
+    "Ayu": [
+      "settings-themes"
+    ],
+    "Base16 Flat": [
+      "settings-themes"
+    ],
+    "Base16 Mocha": [
+      "settings-themes"
+    ],
+    "Blue Dolphin": [
+      "settings-themes"
+    ],
+    "Calm Days, Sober Nights Sky": [
+      "settings-themes"
+    ],
+    "Catppuccin Frappé": [
+      "settings-themes"
+    ],
+    "Catppuccin Macchiato": [
+      "settings-themes"
+    ],
+    "Catppuccin Mocha": [
+      "settings-themes"
+    ],
+    "Chai": [
+      "settings-themes"
+    ],
+    "Chinolor": [
+      "settings-themes"
+    ],
+    "Cyberdyne": [
+      "settings-themes"
+    ],
+    "Desert": [
+      "settings-themes"
+    ],
+    "Django Reborn Again": [
+      "settings-themes"
+    ],
+    "Espresso": [
+      "settings-themes"
+    ],
+    "EyeHealth": [
+      "settings-themes"
+    ],
+    "Flexoki": [
+      "settings-themes"
+    ],
+    "Fox": [
+      "settings-themes"
+    ],
+    "Garbage Oracle": [
+      "settings-themes"
+    ],
+    "GitHub": [
+      "settings-themes"
+    ],
+    "Gruvbox Material": [
+      "settings-themes"
+    ],
+    "Homebrew": [
+      "settings-themes"
+    ],
+    "IC Orange PPL": [
+      "settings-themes"
+    ],
+    "IKKI": [
+      "settings-themes"
+    ],
+    "Kanso Ink": [
+      "settings-themes"
+    ],
+    "Kary Pro Colors": [
+      "settings-themes"
+    ],
+    "Mondrian": [
+      "settings-themes"
+    ],
+    "Monochrome": [
+      "settings-themes"
+    ],
+    "Monochrome Stone": [
+      "settings-themes"
+    ],
+    "Monokai Pro Spectrum": [
+      "settings-themes"
+    ],
+    "Noctis Azureus": [
+      "settings-themes"
+    ],
+    "Noctis Hibernus": [
+      "settings-themes"
+    ],
+    "Noir Essence": [
+      "settings-themes"
+    ],
+    "Nord Midnight": [
+      "settings-themes"
+    ],
+    "Notionish": [
+      "settings-themes"
+    ],
+    "Phonebook": [
+      "settings-themes"
+    ],
+    "Polychrome": [
+      "settings-themes"
+    ],
+    "Purplepeter": [
+      "settings-themes"
+    ],
+    "Rainglow Codecourse": [
+      "settings-themes"
+    ],
+    "Rainglow Crisp": [
+      "settings-themes"
+    ],
+    "Rainglow Lavender": [
+      "settings-themes"
+    ],
+    "Remedy Tilted": [
+      "settings-themes"
+    ],
+    "Rosé Pine": [
+      "settings-themes"
+    ],
+    "Selene Selenized": [
+      "settings-themes"
+    ],
+    "Shades of Purple": [
+      "settings-themes"
+    ],
+    "Soft Color": [
+      "settings-themes"
+    ],
+    "Tearout": [
+      "settings-themes"
+    ],
+    "Tokyo Night": [
+      "settings-themes"
+    ],
+    "Tomorrow Night Eighties": [
+      "settings-themes"
+    ],
+    "Vaporizer Turquoise": [
+      "settings-themes"
+    ],
+    "Xotopio": [
+      "settings-themes"
+    ],
+    "Yuttari": [
+      "settings-themes"
+    ],
+    "Zenbones Rosebones": [
+      "settings-themes"
+    ],
+    "Zhxo'red": [
+      "settings-themes"
+    ]
+  }
+}

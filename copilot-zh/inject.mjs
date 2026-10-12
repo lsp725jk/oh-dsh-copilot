@@ -19,7 +19,8 @@ const ONCE = argv.includes('--once');
 
 let dict = JSON.parse(fs.readFileSync(DICT_PATH, 'utf8'));
 let dictMtime = fs.statSync(DICT_PATH).mtimeMs;
-const dictRev = (d) => 'v' + d.version + '-' + Object.keys(d.text).length + '-' + (d.rules || []).length;
+const RUNTIME_REV = 3; // 改注入器运行时代码时 +1，强制页面重装新代码
+const dictRev = (d) => 'r' + RUNTIME_REV + '-v' + d.version + '-' + Object.keys(d.text).length + '-' + (d.rules || []).length;
 function reloadDictIfChanged() {
   const m = fs.statSync(DICT_PATH).mtimeMs;
   if (m === dictMtime) return false;
@@ -40,18 +41,23 @@ function pageRuntime(dictData) {
   const ATTRS = ['placeholder', 'title', 'aria-label', 'alt'];
   const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'CODE', 'PRE', 'SVG', 'CANVAS', 'INPUT', 'OPTION']);
   let count = 0;
-  const selfChanged = new Set();
 
   const translate = (raw) => {
     if (!raw) return null;
     const t = raw.replace(/\s+/g, ' ').trim();
-    if (!t || t.length > 220 || !/[A-Za-z]/.test(t)) return null;
+    if (!t || t.length > 400 || !/[A-Za-z]/.test(t)) return null;
     if (Object.prototype.hasOwnProperty.call(D.text, t)) return D.text[t];
     for (const r of RULES) {
-      if (r.re.test(t)) {
-        const out = t.replace(r.re, r.rep);
-        if (out !== t) return out;
+      const m = t.match(r.re);
+      if (!m) continue;
+      // 捕获组先各自过一遍词典，再代入替换模板（$1 → 组内容）
+      let out = r.rep;
+      for (let i = 1; i < m.length; i += 1) {
+        const g = m[i] === undefined ? '' : m[i];
+        const gz = Object.prototype.hasOwnProperty.call(D.text, g) ? D.text[g] : g;
+        out = out.split('$' + i).join(gz);
       }
+      if (out !== t) return out;
     }
     return null;
   };
@@ -66,25 +72,25 @@ function pageRuntime(dictData) {
     return false;
   };
 
+  // 幂等：已经翻好的中文不会再命中词典，因此重复调用是安全的，不需要"自我改动"标记
   const doText = (node) => {
-    if (selfChanged.has(node)) { selfChanged.delete(node); return; }
     const el = node.parentElement;
     if (skip(el)) return;
     const zh = translate(node.nodeValue);
     if (zh && zh !== node.nodeValue) {
-      selfChanged.add(node);
       node.nodeValue = zh;
       count += 1;
     }
   };
 
   const doAttrs = (el) => {
-    if (skip(el)) return;
+    if (!el || el.nodeType !== 1) return;
+    if (el.closest('[data-zh-ignore]')) return; // 属性属于界面文本，编辑器/输入框内也照翻
     for (const a of ATTRS) {
       const v = el.getAttribute && el.getAttribute(a);
       if (!v) continue;
       const zh = translate(v);
-      if (zh && zh !== v) { selfChanged.add(el); el.setAttribute(a, zh); count += 1; }
+      if (zh && zh !== v) { el.setAttribute(a, zh); count += 1; }
     }
   };
 
@@ -98,16 +104,32 @@ function pageRuntime(dictData) {
     while (n) { if (n.nodeType === 3) doText(n); else if (n.nodeType === 1) doAttrs(n); n = w.nextNode(); }
   };
 
-  let scheduled = false;
+  // 钩住属性写入：React 每次重渲染都会写回英文，这里在写入瞬间就换成中文，
+  // 比"事后观察 + 回填"稳得多（placeholder / aria-label / title 都走 setAttribute）。
+  if (!Element.prototype.__dshZhPatched) {
+    const ATTR_SET = new Set(ATTRS);
+    const origSetAttribute = Element.prototype.setAttribute;
+    const patched = function (name, value) {
+      if (ATTR_SET.has(name) && typeof value === 'string') {
+        const zh = translate(value);
+        if (zh && zh !== value) {
+          count += 1;
+          return origSetAttribute.call(this, name, zh);
+        }
+      }
+      return origSetAttribute.call(this, name, value);
+    };
+    patched.__dshZhPatched = true;
+    Element.prototype.setAttribute = patched;
+    Element.prototype.__dshZhPatched = true;
+  }
+
   const observer = new MutationObserver((muts) => {
     for (const m of muts) {
-      if (m.type === 'characterData') { if (!selfChanged.has(m.target)) doText(m.target); }
-      else if (m.type === 'attributes') { if (!selfChanged.has(m.target)) doAttrs(m.target); }
-      else if (m.type === 'childList') { for (const n of m.addedNodes) { observer.takeRecords(); walk(n); } }
+      if (m.type === 'characterData') doText(m.target);
+      else if (m.type === 'attributes') doAttrs(m.target);
+      else if (m.type === 'childList') { for (const n of m.addedNodes) walk(n); }
     }
-    if (scheduled) return;
-    scheduled = true;
-    setTimeout(() => { scheduled = false; }, 0);
   });
   observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ATTRS });
 

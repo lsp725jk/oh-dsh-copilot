@@ -1,0 +1,129 @@
+[
+  {
+    "name": "reset-home",
+    "reload": true,
+    "clicks": [],
+    "snap": true
+  },
+  {
+    "name": "settings-shortcuts",
+    "clicks": [
+      "设置",
+      "辅助功能",
+      "查看键盘快捷键"
+    ],
+    "wait": 1600,
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "settings-shortcuts-search",
+    "clicks": [],
+    "type": "split",
+    "wait": 1200
+  },
+  {
+    "name": "close-shortcuts",
+    "esc": true,
+    "clicks": [
+      "通用"
+    ],
+    "wait": 1200
+  },
+  {
+    "name": "themes-more-palettes",
+    "clicks": [
+      "主题",
+      "更多配色"
+    ],
+    "wait": 1800,
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "theme-picker",
+    "esc": true,
+    "clicks": [
+      "更换主题"
+    ],
+    "wait": 1500
+  },
+  {
+    "name": "customize-add-menu",
+    "esc": true,
+    "clicks": [
+      "定制",
+      "添加"
+    ],
+    "wait": 1500,
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "customize-filter",
+    "esc": true,
+    "clicks": [
+      "全部类型"
+    ],
+    "wait": 1200,
+    "dumpClickable": true
+  },
+  {
+    "name": "customize-item-menu",
+    "esc": true,
+    "clicks": [
+      "已安装",
+      "更多操作"
+    ],
+    "wait": 1200,
+    "dumpClickable": true
+  },
+  {
+    "name": "customize-installed-search",
+    "esc": true,
+    "clicks": [],
+    "type": "dsh",
+    "wait": 1200
+  },
+  {
+    "name": "new-session",
+    "esc": true,
+    "clicks": [
+      "新建"
+    ],
+    "wait": 2500,
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "new-automation",
+    "esc": true,
+    "clicks": [
+      "自动化",
+      "新建自动化"
+    ],
+    "wait": 2000,
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "palette-query",
+    "esc": true,
+    "clicks": [
+      "搜索"
+    ],
+    "type": "theme",
+    "wait": 1500,
+    "snap": true,
+    "dumpClickable": true
+  },
+  {
+    "name": "user-menu-again",
+    "esc": true,
+    "clicks": [
+      "lsp725jk"
+    ],
+    "wait": 1200,
+    "dumpClickable": true
+  }
+]
