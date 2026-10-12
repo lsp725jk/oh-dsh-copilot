@@ -1,0 +1,10 @@
+# 采集中间产物与本地状态
+copilot-zh/collect/
+verify.log
+node_modules/
+*.log
+
+# 系统杂物
+Thumbs.db
+desktop.ini
+.DS_Store
