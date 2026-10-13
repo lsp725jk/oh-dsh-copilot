@@ -131,6 +131,26 @@ powershell -NoProfile -ExecutionPolicy Bypass -File copilot-zh/launch-copilot-zh
 
 ---
 
+# ③ 顺带接进来的 REA
+
+[REA](https://github.com/morluto/rea)（逆向工程 agent，170 个 MCP 工具）也以同样方式接进了 Copilot：
+
+```powershell
+npm install rea-agents@6.4.0 --prefix E:\Hanako\OH-WorkSpace\rea-mcp   # 固定目录，避免每次 npx
+copilot mcp add rea --tools '*' --timeout 1800000 -- node <rea-mcp>\node_modules\rea-agents\scripts\rea.mjs mcp
+# 技能：把包内 skills/reverse-engineer-anything/SKILL.md 复制到 ~/.copilot/skills/rea-reverse-engineer/
+```
+
+Windows 上**别直接注册 `npx`**：`.cmd` 不是可执行文件，stdio 服务会起不来；用绝对路径的 `node.exe` + 入口脚本。
+
+# ④ 用 Copilot 拉取项目
+
+完整实测与提示词模板见 **[docs/pull-repos-with-copilot.md](docs/pull-repos-with-copilot.md)**；兜底脚本 [gh-pull.ps1](gh-pull.ps1) 会先试 git、卡住自动转 codeload 压缩包。
+
+一句话：小操作（`ls-remote`）和浅克隆都正常，**大仓库的批量传输会停滞**，所以大仓库走压缩包通道。
+
+---
+
 ## 目录
 
 ```
